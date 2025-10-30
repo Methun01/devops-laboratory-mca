@@ -61,7 +61,8 @@ export default function StudentPortfolio() {
     }
     resetForm();
   }
- //Added few improvements like scroll to top on edit, clear file input after import
+  //change
+
   function handleEdit(id) {
     const p = projects.find(x => x.id === id);
     if (!p) return;
